@@ -56,7 +56,7 @@ st.sidebar.write("The app results should not be taken seriously")
         
 
 # loading the trained model
-pickle_in = open('RF_career.pkl', 'rb') 
+pickle_in = open('RF_Career.pkl', 'rb') 
 classifier = pickle.load(pickle_in)
 
 # defining the function which will make the prediction using the data which the user inputs 
